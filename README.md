@@ -26,6 +26,7 @@ The python version used is 3.5.2
     ```
 ### Development environment
 
+
 - Install dependency
     ```bash
     pipenv install package_name
@@ -36,7 +37,7 @@ The python version used is 3.5.2
     ```
 
 - Running the app
+
     ```bash
     pipenv run flask run
     ```
-

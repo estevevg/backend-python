@@ -8,4 +8,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+ENTRYPOINT ["./entrypoint.sh"]
 CMD ["python", "run.py"]

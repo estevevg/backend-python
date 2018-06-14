@@ -8,7 +8,7 @@ services:
       - 5000:5000
     environment:
       DB_HOST: ip
-      BD_PORT: 27017
+      DB_PORT: 27017
       DB_USER: root
       DB_PASSWORD: example
 

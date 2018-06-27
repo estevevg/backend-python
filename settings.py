@@ -2,7 +2,7 @@ import dbschema
 
 DOMAIN = {'user': dbschema.user}
 
-MONGO_HOST = '172.17.50.127'
+MONGO_HOST = 'localhost'
 MONGO_PORT = 27017
 
 #MONGO_USERNAME = 'root'

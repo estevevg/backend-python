@@ -9,3 +9,7 @@ class DBUtils:
     def postUsers(self, users):
         response = requests.post(self.url+"user", headers=self.json_header, data=users)
         return response
+
+    def getUsers(self):
+        response = requests.get(self.url+"user", headers=self.json_header)
+        return response.text
